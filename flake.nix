@@ -25,7 +25,7 @@
             lxml
           ];
         };
-        defaultPackage = packages.pyang;
+        packages.default = packages.pyang;
       }
     );
 }
